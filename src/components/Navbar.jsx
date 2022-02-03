@@ -1,29 +1,35 @@
 import React from "react";
+import * as Icon from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <>
       <nav className="flex justify-between w-full px-5 py-4 bg-black text-white">
-        <div className="flex justify-between w-1/3 items-center">
-          <div className="px-3">Brand</div>
-          <ul className="flex justify-between w-full border-solid border-l-2 border-white px-3">
-            <li className="cursor-pointer">
-              <Link to="/">HOME</Link>
-            </li>
-            <li>
-              <Link to="/about">ABOUT US</Link>
-            </li>
-            <li>
-              <Link to="/sermon">SERMON</Link>
-            </li>
-            <li>
-              <Link to="/blog">BLOG</Link>
-            </li>
-          </ul>
+        <div className="flex justify-between w-1/2 items-center">
+          <div className="px-3 font-bold text-2xl">GIWU</div>
+          <div className="hidden md:block w-full border-solid border-l-2 ">
+            <ul className="flex border-white px-3 ">
+              <li className="cursor-pointer mr-10">
+                <Link to="/">HOME</Link>
+              </li>
+              <li className="cursor-pointer mr-10">
+                <Link to="/about">ABOUT US</Link>
+              </li>
+              <li className="cursor-pointer mr-10">
+                <Link to="/sermon">SERMON</Link>
+              </li>
+              <li className="cursor-pointer mr-10">
+                <Link to="/blog">BLOG</Link>
+              </li>
+            </ul>
+          </div>
         </div>
-        <button className="text-black bg-pink-200 h-full p-2 rounded">
+        <button className="text-black bg-pink-200 h-full p-2 rounded hidden md:block">
           CONTACT US
+        </button>
+        <button className="md:hidden cursor-pointer">
+          <Icon.FaBars size={24} />
         </button>
       </nav>
     </>

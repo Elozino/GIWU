@@ -7,7 +7,7 @@ function Footer() {
       <div className="md:flex justify-between items-start  w-2/3">
         <div>
           <div>
-            <div>Brand</div>
+            <div className="font-bold text-2xl">GIWU</div>
             <div>© Copyright Finsweet 2022</div>
             <div className="italic capitalize">Developer Elozino</div>
           </div>
