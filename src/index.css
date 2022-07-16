@@ -16,6 +16,20 @@ code {
     monospace;
 }
 
+.link {
+  position: absolute;
+  top: 70px;
+  width: 100%;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: column;
+  height: calc(100vh - 70px);
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
 .hero {
   background: url(./assets/HomeHeader.jpg) no-repeat center;
   background-size: cover;
