@@ -16,93 +16,93 @@ function Sermons() {
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4  gap-10 w-4/5 m-auto my-8">
           <div className="my-10">
-            <div className="p-10 bg-pink-50">
-              <div className="flex justify-between items-end">
+            <div className="p-5 bg-pink-50">
+              <div className="flex justify-between items-start">
                 <h5 className="uppercase font-bold text-pink-500">
                   Upcoming Event
                 </h5>
-                <div className="flex-col">
-                  <p>20</p>
+                <div className="flex text-sm">
+                  <p className="mr-1">20</p>
                   <p>July</p>
                 </div>
               </div>
-              <h3 className="font-bold text-left my-3 text-2xl">
+              <h3 className="font-bold text-left my-3 text-xl">
                 WATCH AND LISTEN TO OUR SERMONS
               </h3>
               <p className="text-sm font-normal">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor.
               </p>
-              <button className="mt-5 text-pink-200 bg-black px-4 py-2 rounded">
+              <button className="mt-5 text-pink-200 bg-black px-4 py-1 text-sm rounded">
                 READ MORE
               </button>
             </div>
           </div>
           <div className="my-10">
-            <div className="p-10 bg-pink-50">
-              <div className="flex justify-between items-end">
+            <div className="p-5 bg-pink-50">
+              <div className="flex justify-between items-start">
                 <h5 className="uppercase font-bold text-pink-500">
                   Upcoming Event
                 </h5>
-                <div className="flex-col">
-                  <p>20</p>
+                <div className="flex text-sm">
+                  <p className="mr-1">20</p>
                   <p>July</p>
                 </div>
               </div>
-              <h3 className="font-bold text-left my-3 text-2xl">
+              <h3 className="font-bold text-left my-3 text-xl">
                 WATCH AND LISTEN TO OUR SERMONS
               </h3>
               <p className="text-sm font-normal">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor.
               </p>
-              <button className="mt-5 text-pink-200 bg-black px-4 py-2 rounded">
+              <button className="mt-5 text-pink-200 bg-black px-4 py-1 text-sm rounded">
                 READ MORE
               </button>
             </div>
           </div>
           <div className="my-10">
-            <div className="p-10 bg-pink-50">
-              <div className="flex justify-between items-end">
+            <div className="p-5 bg-pink-50">
+              <div className="flex justify-between items-start">
                 <h5 className="uppercase font-bold text-pink-500">
                   Upcoming Event
                 </h5>
-                <div className="flex-col">
-                  <p>20</p>
+                <div className="flex text-sm">
+                  <p className="mr-1">20</p>
                   <p>July</p>
                 </div>
               </div>
-              <h3 className="font-bold text-left my-3 text-2xl">
+              <h3 className="font-bold text-left my-3 text-xl">
                 WATCH AND LISTEN TO OUR SERMONS
               </h3>
               <p className="text-sm font-normal">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor.
               </p>
-              <button className="mt-5 text-pink-200 bg-black px-4 py-2 rounded">
+              <button className="mt-5 text-pink-200 bg-black px-4 py-1 text-sm rounded">
                 READ MORE
               </button>
             </div>
           </div>
           <div className="my-10">
-            <div className="p-10 bg-pink-50">
-              <div className="flex justify-between items-end">
+            <div className="p-5 bg-pink-50">
+              <div className="flex justify-between items-start">
                 <h5 className="uppercase font-bold text-pink-500">
                   Upcoming Event
                 </h5>
-                <div className="flex-col">
-                  <p>20</p>
+                <div className="flex text-sm">
+                  <p className="mr-1">20</p>
                   <p>July</p>
                 </div>
               </div>
-              <h3 className="font-bold text-left my-3 text-2xl">
+              <h3 className="font-bold text-left my-3 text-xl">
                 WATCH AND LISTEN TO OUR SERMONS
               </h3>
               <p className="text-sm font-normal">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor.
               </p>
-              <button className="mt-5 text-pink-200 bg-black px-4 py-2 rounded">
+              <button className="mt-5 text-pink-200 bg-black px-4 py-1 text-sm rounded">
                 READ MORE
               </button>
             </div>
